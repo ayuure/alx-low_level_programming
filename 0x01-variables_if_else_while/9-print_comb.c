@@ -7,25 +7,16 @@
 int main(void)
 	{
 	int a;
-	int p;
 
-	for (a = 48; a <= 56; a++)
+	for (a = 48; a < 58; a++)
 	{
-		for (p = 49; p <= 57; p++)
+		putchar(a);
+		if (a != 57)
 		{
-			if (p > a)
-			{
-				putchar(a);
-				putchar(p);
-				if (a != 56 || p != 57)
-				{
-					putchar(',');
-					putchar(' ');
-				}
-			}
+			putchar(',');
+			putchar(' ');
 		}
 	}
-	
-
+	putchar('\n');
 	return (0);
 	}
