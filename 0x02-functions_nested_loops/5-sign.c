@@ -14,10 +14,12 @@ int print_sign(int n)
 	}
 	else if (n > 1)
 	{
-		return (write(1, "+", 1));
+		_putchar('+');
+		return (1);
 	}
 	else
 	{
-		return (write(-1, "-", 1));
+		_putchar('-');
+		return (-1);
 	}
 }
