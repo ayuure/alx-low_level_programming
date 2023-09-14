@@ -2,6 +2,7 @@
 
 /**
  * print_number- prints from zero to 9
+ *@void: nothing
  *
  *Return: Always 0
  */
