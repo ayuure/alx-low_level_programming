@@ -3,7 +3,7 @@
 
 /**
  * main - finds and prints the largest prime
- * 
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
