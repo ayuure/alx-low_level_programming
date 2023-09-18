@@ -1,15 +1,26 @@
 #include "main.h"
-
 /**
- * main - check the code
+ * puts_half - a function
+ * @str: input
  *
- * Return: Always 0.
+ * Return: half
  */
-int main(void)
+void puts_half(char *str)
 {
-	char *str;
+	int a, n, l;
 
-	str = "0123456789";
-	puts_half(str);
-	return (0);
+	l = 0;
+
+	for (a = 0; str[a] != '\0'; a++)
+		l++;
+
+	n = (l / 2);
+
+	if ((l % 2) == 1)
+		n = ((l + 1) / 2);
+
+	for (a = n; str[a] != '\0'; a++)
+		_putchar(str[a]);
+	_putchar('\n');
 }
+
