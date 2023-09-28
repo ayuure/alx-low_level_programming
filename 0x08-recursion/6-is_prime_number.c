@@ -24,10 +24,10 @@ int is_prime_number(int n)
  */
 int actual(int n, int j)
 {
-	if (i == 1)
+	if (j == 1)
 		return (1);
-	if (n % i == 0 && i > 0)
+	if (n % j == 0 && j > 0)
 		return (0);
-	return (actual(n, i - 1));
+	return (actual(n, j - 1));
 }
 
