@@ -18,7 +18,7 @@ int is_prime_number(int n)
 /**
  * actual - funciton
  * @n: number
- * @i: iterator
+ * @j: iterator
  *
  * Return: 1 or zero
  */

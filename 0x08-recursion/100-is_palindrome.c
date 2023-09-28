@@ -17,7 +17,7 @@ int is_palindrome(char *s)
 }
 
 /**
- * _strlen_recursion - function
+ * _strlen - function
  * @s: string
  *
  * Return: function
