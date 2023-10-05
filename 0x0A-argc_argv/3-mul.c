@@ -63,7 +63,7 @@ int main(int argc, char *argv[])
 	
 
 		n1 = _convert_to_int(argv[1]);
-		n2 = _convert_to_int(argv[0]);
+		n2 = _convert_to_int(argv[2]);
 
 		result = n1 * n2;
 
