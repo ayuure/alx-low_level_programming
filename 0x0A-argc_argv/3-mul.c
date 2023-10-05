@@ -55,19 +55,18 @@ int main(int argc, char *argv[])
 {
 	int result, n1, n2;
 
-	if (argc <= 1 || argc > 2)
+	if (argc < 3 || argc > 3)
 	{
 		printf("Error\n");
 		return (1);
 	}
-	else
-	{
+	
+
 		n1 = _convert_to_int(argv[1]);
 		n2 = _convert_to_int(argv[0]);
 
 		result = n1 * n2;
 
 		printf("%d\n", result);
-	}
 	return (0);
 }
