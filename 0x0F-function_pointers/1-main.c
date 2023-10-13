@@ -1,7 +1,4 @@
-_iterator(array, 5, &print_elem);
-    array_iterator(array, 5, &print_elem_hex);
-    return (0);
-}#include <stdio.h>
+#include <stdio.h>
 #include "function_pointers.h"
 
 /**
@@ -35,4 +32,7 @@ int main(void)
 {
     int array[5] = {0, 98, 402, 1024, 4096};
 
-    array
+    array_iterator(array, 5, &print_elem);
+    array_iterator(array, 5, &print_elem_hex);
+    return (0);
+}
