@@ -3,7 +3,7 @@
 
 int main(void)
 {
-    int n;
+ 	int n;
 
     n = get_endianness();
     if (n != 0)
