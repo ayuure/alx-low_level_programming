@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _error - checks if files can be opened.
+ * _errorFile - checks if files can be opened.
  * @_from: file_from.
  * @_to: file_to.
  * @argv: arguments vector
