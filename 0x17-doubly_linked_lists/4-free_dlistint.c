@@ -4,7 +4,6 @@
  * free_dlistint - frees
  *
  * @head: head
- * 
  */
 void free_dlistint(dlistint_t *head)
 {
