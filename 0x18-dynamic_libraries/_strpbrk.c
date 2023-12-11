@@ -6,7 +6,7 @@
  * @s: string to search
  * @accept: stringcontaining
  *
- * Return: pointer
+ * Return: pointerd
  */
 char *_strpbrk(char *s, char *accept)
 {

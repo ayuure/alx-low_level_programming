@@ -7,7 +7,7 @@
  * @c: char to find
  *
  * Return: a pointer
- * 
+ *
  */
 char *_strchr(char *s, char c)
 {
