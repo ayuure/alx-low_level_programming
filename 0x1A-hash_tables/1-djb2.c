@@ -12,9 +12,9 @@ unsigned long int hash_djb2(const unsigned char *str)
 	int c;
 
 	hash_table = 5381;
-	while ((s = *str++))
+	while ((c = *str++))
 	{
-		hash_table = ((hash_table << 5) + hash_table) + s;
+		hash_table = ((hash_table << 5) + hash_table) + c;
 	}
 	return (hash_table);
 }
