@@ -125,7 +125,7 @@ int shash_table_set(shash_table_t *ht, const char *key, const char *value)
 			if (new_ == NULL)
 				return (0);
 			free(t->value);
-			t->value = new_;
+			tmp->value = new_;
 			return (1);
 		}
 		t = t->next;
